@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 100%;
+    border-left: 1px solid ghostwhite;
+    padding: 0 auto;
+}
+
+.btn:hover{
+    background-color: #FFF6EB;
+    text-decoration: none;
+    color: black;
+}
+.btn:focus{
+    border: 1px solid dodgerblue;
+    border-radius: 0;
+}
+.site-header{
+    background-color: #007724;
+}
+.circled{
+    border-radius: 200px;
+}
+.brand{
+    border-radius: 32px;
+
+}
+
+.img{border-radius: 200px;
+transition: 0.3s}
+.img:hover{
+    border: 5px solid white;
+}
+.selection{
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-top: 1px solid lightgrey;
+}
+.nav-link{
+    border-top: 1px grey black;
+}
+.headerfor{
+    margin-top: 10px;
+    text-align: center;
+    color: #0e1f5b;
+}
+.list{
+    list-style-type: circle;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+}
+.scroling{
+
+}
+.contain{
+    min-height: 200px;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x:hidden;
+    position: relative;
+
+}
+.col-9,.col-3{
+
+    border: 1px solid grey;
+}
+code{
+    padding: 10px;
+    display: block;
+    background-color: #f7f7f7;
+    position: relative;
+    border-radius: 5px;
+}
+.col{
+    height: 250px;
+    margin: 10px;
+}
+.l{
+    width: 100%;
+    min-height: 500px;
+    margin: 10px;
+    background-color: grey;
+}
+.g{
+    transition: 0.3s;
+}
+.g:hover{
+    background-color: #2CB84D;
+}
+.centered{
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+}
